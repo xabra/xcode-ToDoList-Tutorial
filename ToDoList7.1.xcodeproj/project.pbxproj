@@ -19,6 +19,9 @@
 		884EF3E219679E0F0052C881 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884EF3CA19679E0F0052C881 /* UIKit.framework */; };
 		884EF3EA19679E0F0052C881 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 884EF3E819679E0F0052C881 /* InfoPlist.strings */; };
 		884EF3EC19679E0F0052C881 /* ToDoList7_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884EF3EB19679E0F0052C881 /* ToDoList7_1Tests.m */; };
+		884EF3F619679F030052C881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884EF3F519679F030052C881 /* Main.storyboard */; };
+		884EF3F91967A4180052C881 /* VAXAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884EF3F81967A4180052C881 /* VAXAddToDoItemViewController.m */; };
+		884EF3FC1967A4DF0052C881 /* VAXToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884EF3FB1967A4DF0052C881 /* VAXToDoListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		884EF3E719679E0F0052C881 /* ToDoList7.1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoList7.1Tests-Info.plist"; sourceTree = "<group>"; };
 		884EF3E919679E0F0052C881 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		884EF3EB19679E0F0052C881 /* ToDoList7_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoList7_1Tests.m; sourceTree = "<group>"; };
+		884EF3F519679F030052C881 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		884EF3F71967A4180052C881 /* VAXAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAXAddToDoItemViewController.h; sourceTree = "<group>"; };
+		884EF3F81967A4180052C881 /* VAXAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAXAddToDoItemViewController.m; sourceTree = "<group>"; };
+		884EF3FA1967A4DF0052C881 /* VAXToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAXToDoListTableViewController.h; sourceTree = "<group>"; };
+		884EF3FB1967A4DF0052C881 /* VAXToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAXToDoListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +115,13 @@
 		884EF3CC19679E0F0052C881 /* ToDoList7.1 */ = {
 			isa = PBXGroup;
 			children = (
+				884EF3F519679F030052C881 /* Main.storyboard */,
 				884EF3D519679E0F0052C881 /* VAXAppDelegate.h */,
 				884EF3D619679E0F0052C881 /* VAXAppDelegate.m */,
+				884EF3FA1967A4DF0052C881 /* VAXToDoListTableViewController.h */,
+				884EF3FB1967A4DF0052C881 /* VAXToDoListTableViewController.m */,
+				884EF3F71967A4180052C881 /* VAXAddToDoItemViewController.h */,
+				884EF3F81967A4180052C881 /* VAXAddToDoItemViewController.m */,
 				884EF3D819679E0F0052C881 /* Images.xcassets */,
 				884EF3CD19679E0F0052C881 /* Supporting Files */,
 			);
@@ -220,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884EF3F619679F030052C881 /* Main.storyboard in Resources */,
 				884EF3D119679E0F0052C881 /* InfoPlist.strings in Resources */,
 				884EF3D919679E0F0052C881 /* Images.xcassets in Resources */,
 			);
@@ -241,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				884EF3D719679E0F0052C881 /* VAXAppDelegate.m in Sources */,
+				884EF3F91967A4180052C881 /* VAXAddToDoItemViewController.m in Sources */,
+				884EF3FC1967A4DF0052C881 /* VAXToDoListTableViewController.m in Sources */,
 				884EF3D319679E0F0052C881 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
