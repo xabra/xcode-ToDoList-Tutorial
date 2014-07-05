@@ -7,8 +7,11 @@
 //
 
 #import "VAXToDoListTableViewController.h"
+#import "VAXToDoItem.h"
 
 @interface VAXToDoListTableViewController ()
+
+@property NSMutableArray *toDoItems;
 
 @end
 
@@ -17,6 +20,18 @@
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue
 {
     
+}
+
+- (void)loadInitialData {
+    VAXToDoItem *item1 = [[VAXToDoItem alloc] init];
+    item1.itemName = @"Buy milk";
+    [self.toDoItems addObject:item1];
+    VAXToDoItem *item2 = [[VAXToDoItem alloc] init];
+    item2.itemName = @"Buy eggs";
+    [self.toDoItems addObject:item2];
+    VAXToDoItem *item3 = [[VAXToDoItem alloc] init];
+    item3.itemName = @"Read a book";
+    [self.toDoItems addObject:item3];
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -31,6 +46,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    self.toDoItems = [[NSMutableArray alloc] init];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

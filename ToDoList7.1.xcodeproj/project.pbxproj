@@ -22,6 +22,7 @@
 		884EF3F619679F030052C881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884EF3F519679F030052C881 /* Main.storyboard */; };
 		884EF3F91967A4180052C881 /* VAXAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884EF3F81967A4180052C881 /* VAXAddToDoItemViewController.m */; };
 		884EF3FC1967A4DF0052C881 /* VAXToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884EF3FB1967A4DF0052C881 /* VAXToDoListTableViewController.m */; };
+		884EF3FF1967AA140052C881 /* VAXToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 884EF3FE1967AA140052C881 /* VAXToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		884EF3F81967A4180052C881 /* VAXAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAXAddToDoItemViewController.m; sourceTree = "<group>"; };
 		884EF3FA1967A4DF0052C881 /* VAXToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAXToDoListTableViewController.h; sourceTree = "<group>"; };
 		884EF3FB1967A4DF0052C881 /* VAXToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAXToDoListTableViewController.m; sourceTree = "<group>"; };
+		884EF3FD1967AA140052C881 /* VAXToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAXToDoItem.h; sourceTree = "<group>"; };
+		884EF3FE1967AA140052C881 /* VAXToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAXToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,12 +119,14 @@
 			isa = PBXGroup;
 			children = (
 				884EF3F519679F030052C881 /* Main.storyboard */,
-				884EF3D519679E0F0052C881 /* VAXAppDelegate.h */,
-				884EF3D619679E0F0052C881 /* VAXAppDelegate.m */,
+				884EF3FD1967AA140052C881 /* VAXToDoItem.h */,
+				884EF3FE1967AA140052C881 /* VAXToDoItem.m */,
 				884EF3FA1967A4DF0052C881 /* VAXToDoListTableViewController.h */,
 				884EF3FB1967A4DF0052C881 /* VAXToDoListTableViewController.m */,
 				884EF3F71967A4180052C881 /* VAXAddToDoItemViewController.h */,
 				884EF3F81967A4180052C881 /* VAXAddToDoItemViewController.m */,
+				884EF3D519679E0F0052C881 /* VAXAppDelegate.h */,
+				884EF3D619679E0F0052C881 /* VAXAppDelegate.m */,
 				884EF3D819679E0F0052C881 /* Images.xcassets */,
 				884EF3CD19679E0F0052C881 /* Supporting Files */,
 			);
@@ -257,6 +262,7 @@
 				884EF3D719679E0F0052C881 /* VAXAppDelegate.m in Sources */,
 				884EF3F91967A4180052C881 /* VAXAddToDoItemViewController.m in Sources */,
 				884EF3FC1967A4DF0052C881 /* VAXToDoListTableViewController.m in Sources */,
+				884EF3FF1967AA140052C881 /* VAXToDoItem.m in Sources */,
 				884EF3D319679E0F0052C881 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
