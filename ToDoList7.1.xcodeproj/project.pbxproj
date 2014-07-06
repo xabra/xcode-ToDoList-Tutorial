@@ -23,7 +23,6 @@
 		884EF3F91967A4180052C881 /* VAXAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884EF3F81967A4180052C881 /* VAXAddToDoItemViewController.m */; };
 		884EF3FC1967A4DF0052C881 /* VAXToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884EF3FB1967A4DF0052C881 /* VAXToDoListTableViewController.m */; };
 		884EF3FF1967AA140052C881 /* VAXToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 884EF3FE1967AA140052C881 /* VAXToDoItem.m */; };
-		88BF0CF51968C0E400F49C36 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BF0CF41968C0E400F49C36 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,11 +59,6 @@
 		884EF3FB1967A4DF0052C881 /* VAXToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAXToDoListTableViewController.m; sourceTree = "<group>"; };
 		884EF3FD1967AA140052C881 /* VAXToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAXToDoItem.h; sourceTree = "<group>"; };
 		884EF3FE1967AA140052C881 /* VAXToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAXToDoItem.m; sourceTree = "<group>"; };
-		88BF0CF41968C0E400F49C36 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		88BF0CF61968C14100F49C36 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		88BF0CF71968C20D00F49C36 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
-		88BF0CF81968C23F00F49C36 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		88BF0CF91968C27E00F49C36 /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,11 +88,6 @@
 		884EF3BA19679E0F0052C881 = {
 			isa = PBXGroup;
 			children = (
-				88BF0CF91968C27E00F49C36 /* Default-568h@2x~iphone.png */,
-				88BF0CF81968C23F00F49C36 /* Default@2x.png */,
-				88BF0CF71968C20D00F49C36 /* Default~iphone.png */,
-				88BF0CF61968C14100F49C36 /* Default.png */,
-				88BF0CF41968C0E400F49C36 /* Default-568h@2x.png */,
 				884EF3CC19679E0F0052C881 /* ToDoList7.1 */,
 				884EF3E519679E0F0052C881 /* ToDoList7.1Tests */,
 				884EF3C519679E0F0052C881 /* Frameworks */,
@@ -261,7 +250,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				884EF3F619679F030052C881 /* Main.storyboard in Resources */,
-				88BF0CF51968C0E400F49C36 /* Default-568h@2x.png in Resources */,
 				884EF3D119679E0F0052C881 /* InfoPlist.strings in Resources */,
 				884EF3D919679E0F0052C881 /* Images.xcassets in Resources */,
 			);
