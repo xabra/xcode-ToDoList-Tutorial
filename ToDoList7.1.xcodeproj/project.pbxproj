@@ -23,6 +23,7 @@
 		884EF3F91967A4180052C881 /* VAXAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884EF3F81967A4180052C881 /* VAXAddToDoItemViewController.m */; };
 		884EF3FC1967A4DF0052C881 /* VAXToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884EF3FB1967A4DF0052C881 /* VAXToDoListTableViewController.m */; };
 		884EF3FF1967AA140052C881 /* VAXToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 884EF3FE1967AA140052C881 /* VAXToDoItem.m */; };
+		88BF0CF51968C0E400F49C36 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BF0CF41968C0E400F49C36 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,11 @@
 		884EF3FB1967A4DF0052C881 /* VAXToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAXToDoListTableViewController.m; sourceTree = "<group>"; };
 		884EF3FD1967AA140052C881 /* VAXToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAXToDoItem.h; sourceTree = "<group>"; };
 		884EF3FE1967AA140052C881 /* VAXToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAXToDoItem.m; sourceTree = "<group>"; };
+		88BF0CF41968C0E400F49C36 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		88BF0CF61968C14100F49C36 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		88BF0CF71968C20D00F49C36 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		88BF0CF81968C23F00F49C36 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		88BF0CF91968C27E00F49C36 /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,11 @@
 		884EF3BA19679E0F0052C881 = {
 			isa = PBXGroup;
 			children = (
+				88BF0CF91968C27E00F49C36 /* Default-568h@2x~iphone.png */,
+				88BF0CF81968C23F00F49C36 /* Default@2x.png */,
+				88BF0CF71968C20D00F49C36 /* Default~iphone.png */,
+				88BF0CF61968C14100F49C36 /* Default.png */,
+				88BF0CF41968C0E400F49C36 /* Default-568h@2x.png */,
 				884EF3CC19679E0F0052C881 /* ToDoList7.1 */,
 				884EF3E519679E0F0052C881 /* ToDoList7.1Tests */,
 				884EF3C519679E0F0052C881 /* Frameworks */,
@@ -118,6 +129,7 @@
 		884EF3CC19679E0F0052C881 /* ToDoList7.1 */ = {
 			isa = PBXGroup;
 			children = (
+				88BF0CF319688BE100F49C36 /* iPad */,
 				884EF3F519679F030052C881 /* Main.storyboard */,
 				884EF3FD1967AA140052C881 /* VAXToDoItem.h */,
 				884EF3FE1967AA140052C881 /* VAXToDoItem.m */,
@@ -160,6 +172,13 @@
 				884EF3E819679E0F0052C881 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88BF0CF319688BE100F49C36 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +229,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Vaxis Technologies";
 				TargetAttributes = {
+					884EF3C219679E0F0052C881 = {
+						DevelopmentTeam = TM3N8JBBNP;
+					};
 					884EF3DD19679E0F0052C881 = {
 						TestTargetID = 884EF3C219679E0F0052C881;
 					};
@@ -239,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				884EF3F619679F030052C881 /* Main.storyboard in Resources */,
+				88BF0CF51968C0E400F49C36 /* Default-568h@2x.png in Resources */,
 				884EF3D119679E0F0052C881 /* InfoPlist.strings in Resources */,
 				884EF3D919679E0F0052C881 /* Images.xcassets in Resources */,
 			);
@@ -337,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -369,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -378,12 +401,17 @@
 		884EF3F019679E0F0052C881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ToDoList7.1/ToDoList7.1-Prefix.pch";
 				INFOPLIST_FILE = "ToDoList7.1/ToDoList7.1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,12 +419,17 @@
 		884EF3F119679E0F0052C881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ToDoList7.1/ToDoList7.1-Prefix.pch";
 				INFOPLIST_FILE = "ToDoList7.1/ToDoList7.1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +493,7 @@
 				884EF3F119679E0F0052C881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		884EF3F219679E0F0052C881 /* Build configuration list for PBXNativeTarget "ToDoList7.1Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +502,7 @@
 				884EF3F419679E0F0052C881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

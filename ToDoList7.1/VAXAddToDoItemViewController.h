@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VAXToDoItem.h"
 
 @interface VAXAddToDoItemViewController : UIViewController
+
+@property VAXToDoItem *toDoItem;
 
 @end

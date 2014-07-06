@@ -8,6 +8,7 @@
 
 #import "VAXToDoListTableViewController.h"
 #import "VAXToDoItem.h"
+#import "VAXAddToDoItemViewController.h"
 
 @interface VAXToDoListTableViewController ()
 
@@ -19,7 +20,12 @@
 
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue
 {
-    
+    VAXAddToDoItemViewController *source = [segue sourceViewController];
+    VAXToDoItem *item = source.toDoItem;
+    if (item != nil) {
+        [self.toDoItems addObject:item];
+        [self.tableView reloadData];
+    }
 }
 
 - (void)loadInitialData {
