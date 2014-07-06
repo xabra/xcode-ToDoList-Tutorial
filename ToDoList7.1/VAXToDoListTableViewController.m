@@ -28,8 +28,8 @@
     }
 }
 
-- (void)loadInitialData {
-    VAXToDoItem *item1 = [[VAXToDoItem alloc] init];
+- (void)loadInitialData {  
+    VAXToDoItem *item1 = [[VAXToDoItem alloc] init]; 
     item1.itemName = @"Buy milk";
     [self.toDoItems addObject:item1];
     VAXToDoItem *item2 = [[VAXToDoItem alloc] init];
